@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="4" failed="0" ignored="4" total="8" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Ebay" duration-ms="97" started-at="2023-03-01T17:56:11 IST" finished-at="2023-03-01T17:56:11 IST">
+    <groups>
+    </groups>
+    <test name="functionalTesting_firefox" duration-ms="39" started-at="2023-03-01T17:56:11 IST" finished-at="2023-03-01T17:56:11 IST">
+      <class name="testing.FunctionalTest">
+        <test-method status="SKIP" signature="initialize(java.lang.String)[pri:0, instance:testing.FunctionalTest@1068e947]" name="initialize" is-config="true" duration-ms="-1677673571304" started-at="2023-03-01T17:56:11 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="SKIP" signature="validateProdandPrice()[pri:0, instance:testing.FunctionalTest@1068e947]" name="validateProdandPrice" duration-ms="0" started-at="2023-03-01T17:56:11 IST" finished-at="2023-03-01T17:56:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateProdandPrice -->
+        <test-method status="SKIP" signature="initialize(java.lang.String)[pri:0, instance:testing.FunctionalTest@1068e947]" name="initialize" is-config="true" duration-ms="-1677673571312" started-at="2023-03-01T17:56:11 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="SKIP" signature="validateTitle()[pri:0, instance:testing.FunctionalTest@1068e947]" name="validateTitle" duration-ms="0" started-at="2023-03-01T17:56:11 IST" finished-at="2023-03-01T17:56:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTitle -->
+      </class> <!-- testing.FunctionalTest -->
+    </test> <!-- functionalTesting_firefox -->
+    <test name="functionalTesting_chrome" duration-ms="20" started-at="2023-03-01T17:56:11 IST" finished-at="2023-03-01T17:56:11 IST">
+      <class name="base.Base">
+        <test-method status="FAIL" signature="initializeReport()[pri:0, instance:base.Base@2df32bf7]" name="initializeReport" is-config="true" duration-ms="15" started-at="2023-03-01T17:56:11 IST" finished-at="2023-03-01T17:56:11 IST">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[freemarker/template/TemplateModelException]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: freemarker/template/TemplateModelException
+at base.Base.initializeReport(Base.java:37)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:317)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.ClassNotFoundException: freemarker.template.TemplateModelException
+at java.net.URLClassLoader.findClass(Unknown Source)
+at java.lang.ClassLoader.loadClass(Unknown Source)
+at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+at java.lang.ClassLoader.loadClass(Unknown Source)
+... 20 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeReport -->
+        <test-method status="SKIP" signature="saveReport()[pri:0, instance:base.Base@2df32bf7]" name="saveReport" is-config="true" duration-ms="-1677673571388" started-at="2023-03-01T17:56:11 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saveReport -->
+      </class> <!-- base.Base -->
+      <class name="testing.FunctionalTest">
+        <test-method status="SKIP" signature="initialize(java.lang.String)[pri:0, instance:testing.FunctionalTest@530612ba]" name="initialize" is-config="true" duration-ms="-1677673571357" started-at="2023-03-01T17:56:11 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="SKIP" signature="validateProdandPrice()[pri:0, instance:testing.FunctionalTest@530612ba]" name="validateProdandPrice" duration-ms="0" started-at="2023-03-01T17:56:11 IST" finished-at="2023-03-01T17:56:11 IST">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[freemarker/template/TemplateModelException]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: freemarker/template/TemplateModelException
+at base.Base.initializeReport(Base.java:37)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:317)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.ClassNotFoundException: freemarker.template.TemplateModelException
+at java.net.URLClassLoader.findClass(Unknown Source)
+at java.lang.ClassLoader.loadClass(Unknown Source)
+at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+at java.lang.ClassLoader.loadClass(Unknown Source)
+... 20 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateProdandPrice -->
+        <test-method status="SKIP" signature="initialize(java.lang.String)[pri:0, instance:testing.FunctionalTest@530612ba]" name="initialize" is-config="true" duration-ms="-1677673571364" started-at="2023-03-01T17:56:11 IST" finished-at="1970-01-01T05:30:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="SKIP" signature="validateTitle()[pri:0, instance:testing.FunctionalTest@530612ba]" name="validateTitle" duration-ms="0" started-at="2023-03-01T17:56:11 IST" finished-at="2023-03-01T17:56:11 IST">
+          <exception class="java.lang.NoClassDefFoundError">
+            <message>
+              <![CDATA[freemarker/template/TemplateModelException]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoClassDefFoundError: freemarker/template/TemplateModelException
+at base.Base.initializeReport(Base.java:37)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:317)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.ClassNotFoundException: freemarker.template.TemplateModelException
+at java.net.URLClassLoader.findClass(Unknown Source)
+at java.lang.ClassLoader.loadClass(Unknown Source)
+at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+at java.lang.ClassLoader.loadClass(Unknown Source)
+... 20 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoClassDefFoundError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTitle -->
+      </class> <!-- testing.FunctionalTest -->
+    </test> <!-- functionalTesting_chrome -->
+  </suite> <!-- Ebay -->
+</testng-results>
